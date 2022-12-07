@@ -1,87 +1,11 @@
-gi|1536055096|ref|XM_027360286.1|,99.165,0.0,PREDICTED: Penaeus vannamei cysteine proteinase 4-like (LOC113808797), mRNA,1079
-gi|1536055096|ref|XM_027360286.1|,91.860,0.0,PREDICTED: Penaeus vannamei cysteine proteinase 4-like (LOC113808797), mRNA,837
-gi|728636|emb|X85127.1|,98.490,0.0,P.vannamei cathepsin-L like cysteine protease mRNA,1051
-gi|1536055118|ref|XR_003476021.1|,94.910,0.0,PREDICTED: Penaeus vannamei cathepsin L1-like (LOC113808808), misc_RNA,937
-gi|1935926000|ref|XM_037933956.1|,92.691,0.0,PREDICTED: Penaeus monodon procathepsin L-like (LOC119585284), mRNA,865
-gi|2220164266|ref|XM_047639350.1|,92.437,0.0,PREDICTED: Penaeus chinensis procathepsin L-like (LOC125043306), transcript variant X2, mRNA,848
-gi|1483569|emb|X99730.1|,92.027,0.0,P.vannamei mRNA for cathepsin L,843
-gi|1935926002|ref|XM_037933957.1|,91.860,0.0,PREDICTED: Penaeus monodon procathepsin L-like (LOC119585285), mRNA,837
-gi|1935926006|ref|XM_037933960.1|,91.528,0.0,PREDICTED: Penaeus monodon procathepsin L-like (LOC119585287), mRNA,826
-gi|2220164264|ref|XM_047639349.1|,91.030,0.0,PREDICTED: Penaeus chinensis procathepsin L-like (LOC125043306), transcript variant X1, mRNA,809
-gi|2220164262|ref|XM_047639348.1|,90.864,0.0,PREDICTED: Penaeus chinensis procathepsin L-like (LOC125043304), mRNA,804
-gi|2080967604|ref|XM_043002818.1|,88.314,0.0,PREDICTED: Penaeus japonicus procathepsin L-like (LOC122244845), mRNA,719
-gi|2080967599|ref|XM_043002817.1|,88.314,0.0,PREDICTED: Penaeus japonicus procathepsin L-like (LOC122244844), mRNA,719
-gi|2080967594|ref|XM_043002816.1|,88.147,0.0,PREDICTED: Penaeus japonicus cathepsin L-like (LOC122244843), mRNA,713
-gi|2080967594|ref|XM_043002816.1|,83.871,8.89e-155,PREDICTED: Penaeus japonicus cathepsin L-like (LOC122244843), mRNA,560
-gi|765555700|gb|KJ871613.1|,87.479,0.0,Marsupenaeus japonicus cathepsin L (CTSL) mRNA, complete cds,691
-gi|2220164018|ref|XM_047639218.1|,86.949,0.0,PREDICTED: Penaeus chinensis procathepsin L-like (LOC125043216), mRNA,660
-gi|1935926004|ref|XM_037933958.1|,86.587,8.58e-180,PREDICTED: Penaeus monodon procathepsin L-like (LOC119585286), mRNA,643
-gi|1581141569|gb|MH455232.1|,82.895,9.01e-145,Penaeus penicillatus cathepsin L mRNA, complete cds,527
-gi|1536055121|ref|XM_027360300.1|,92.090,1.96e-136,PREDICTED: Penaeus vannamei cathepsin L1-like (LOC113808810), mRNA,499
-gi|38146074|gb|AY366355.1|,99.457,5.86e-87,Litopenaeus vannamei cathepsin L gene, exons 1 through 6 and partial cds,335
-gi|38146074|gb|AY366355.1|,98.895,1.27e-83,Litopenaeus vannamei cathepsin L gene, exons 1 through 6 and partial cds,324
-gi|38146074|gb|AY366355.1|,100.000,1.67e-72,Litopenaeus vannamei cathepsin L gene, exons 1 through 6 and partial cds,287
-gi|38146074|gb|AY366355.1|,96.667,2.33e-16,Litopenaeus vannamei cathepsin L gene, exons 1 through 6 and partial cds,100
-gi|2765357|emb|Y13924.1|,99.448,2.73e-85,Penaeus vannamei cathepsin L gene,329
-gi|2765357|emb|Y13924.1|,98.913,2.73e-85,Penaeus vannamei cathepsin L gene,329
-gi|2765357|emb|Y13924.1|,98.710,3.60e-69,Penaeus vannamei cathepsin L gene,276
-gi|3287251|emb|Y14965.1|,99.448,2.73e-85,Penaeus vannamei gene encoding cathepsin L, exon 1-6,329
-gi|3287251|emb|Y14965.1|,98.913,2.73e-85,Penaeus vannamei gene encoding cathepsin L, exon 1-6,329
-gi|3287251|emb|Y14965.1|,98.065,1.68e-67,Penaeus vannamei gene encoding cathepsin L, exon 1-6,270
-gi|3287251|emb|Y14965.1|,93.750,1.79e-22,Penaeus vannamei gene encoding cathepsin L, exon 1-6,121
-gi|56182501|gb|AY822073.1|,95.652,2.77e-75,Penaeus monodon cathepsin L (CTSL) gene, exons 3 through 5 and partial cds,296
-gi|56182501|gb|AY822073.1|,92.073,1.02e-54,Penaeus monodon cathepsin L (CTSL) gene, exons 3 through 5 and partial cds,228
-gi|765555702|gb|KJ871614.1|,91.489,1.31e-63,Marsupenaeus japonicus cathepsin L (CTSL) gene, complete cds,257
-gi|765555702|gb|KJ871614.1|,92.258,1.71e-52,Marsupenaeus japonicus cathepsin L (CTSL) gene, complete cds,220
-gi|765555702|gb|KJ871614.1|,87.037,2.25e-41,Marsupenaeus japonicus cathepsin L (CTSL) gene, complete cds,183
-gi|2029435647|ref|XM_029139687.2|,80.843,8.03e-46,PREDICTED: Betta splendens cathepsin L.1 (ctsl.1), mRNA,198
-gi|1570104985|gb|MH400438.1|,80.567,1.74e-42,Haemaphysalis flava cathepsin L-like cysteine protein mRNA, complete cds,187
-gi|3928765|dbj|AB020491.1|,79.225,6.25e-42,Haemaphysalis longicornis mRNA for cathepsin L-like tick cysteine proteinase B, complete cds,185
-gi|2080966110|ref|XM_043020647.1|,79.920,8.08e-41,PREDICTED: Penaeus japonicus procathepsin L-like (LOC122256158), mRNA,182
-gi|1724734560|ref|XM_030443087.1|,81.140,3.76e-39,PREDICTED: Sparus aurata cathepsin L1-like (LOC115597289), transcript variant X2, mRNA,176
-gi|1724734558|ref|XM_030443086.1|,81.140,3.76e-39,PREDICTED: Sparus aurata cathepsin L1-like (LOC115597289), transcript variant X1, mRNA,176
-gi|1696223876|ref|XM_029730713.1|,80.357,2.26e-36,PREDICTED: Salmo trutta cathepsin L1-like (LOC115172882), mRNA,167
-gi|1955718976|ref|XM_039009186.1|,80.357,2.26e-36,PREDICTED: Salvelinus namaycush procathepsin L-like (LOC120060106), mRNA,167
-gi|2220163251|ref|XM_047638796.1|,78.740,8.14e-36,PREDICTED: Penaeus chinensis procathepsin L-like (LOC125042957), mRNA,165
-gi|2173931843|ref|XM_014124116.2|,79.911,1.05e-34,PREDICTED: Salmo salar procathepsin L-like (LOC106560797), mRNA,161
-gi|2205502731|gb|MW140036.1|,79.825,3.79e-34,Siniperca chuatsi cathepsin L mRNA, partial cds,159
-gi|2108611171|ref|XM_044166962.1|,79.825,3.79e-34,PREDICTED: Siniperca chuatsi cathepsin L.1 (ctsl.1), mRNA,159
-gi|2203568161|ref|XM_047016796.1|,77.736,4.90e-33,PREDICTED: Hypomesus transpacificus procathepsin L-like (LOC124464888), mRNA,156
-gi|1927175824|ref|XM_037072802.1|,79.476,1.76e-32,PREDICTED: Acanthopagrus latus cathepsin L.1 (ctsl.1), mRNA,154
-gi|28932703|gb|AY208822.1|,78.000,2.28e-31,Rhipicephalus appendiculatus midgut cysteine proteinase 3 mRNA, complete cds,150
-gi|2065091916|ref|XM_042326288.1|,78.027,1.77e-27,PREDICTED: Oncorhynchus tshawytscha procathepsin L-like (LOC112255725), mRNA,137
-gi|1841824092|ref|XM_034385453.1|,77.391,2.97e-25,PREDICTED: Thrips palmi cathepsin L1-like (LOC117645345), mRNA,130
-gi|1841824090|ref|XM_034385452.1|,76.957,1.38e-23,PREDICTED: Thrips palmi cathepsin L1-like (LOC117645344), mRNA,124
-gi|2211670302|gb|MW752134.1|,76.957,1.38e-23,Thrips palmi isolate New Delhi cathepsin-L protein mRNA, complete cds,124
-gi|2045391065|ref|XM_041813381.1|,76.889,4.97e-23,PREDICTED: Cheilinus undulatus cathepsin L.1 (ctsl.1), mRNA,122
-gi|1473015800|ref|XM_026340421.1|,76.652,1.79e-22,PREDICTED: Anabas testudineus cathepsin L.1 (ctsl.1), transcript variant X2, mRNA,121
-gi|1473015798|ref|XM_026340420.1|,76.652,1.79e-22,PREDICTED: Anabas testudineus cathepsin L.1 (ctsl.1), transcript variant X1, mRNA,121
-gi|2187937028|ref|XM_046413832.1|,76.549,8.32e-21,PREDICTED: Scatophagus argus cathepsin L.1 (ctsl.1), transcript variant X2, mRNA,115
-gi|2187937026|ref|XM_046413831.1|,76.549,8.32e-21,PREDICTED: Scatophagus argus cathepsin L.1 (ctsl.1), transcript variant X1, mRNA,115
-gi|1782295197|ref|XM_031789209.1|,80.137,5.00e-18,PREDICTED: Oncorhynchus kisutch cathepsin L1-like (LOC109904495), mRNA,106
-gi|2062414948|ref|XM_005925651.3|,74.890,8.37e-16,PREDICTED: Haplochromis burtoni procathepsin L (LOC102301222), transcript variant X1, mRNA,99.0
-gi|1343939085|ref|XM_004082183.4|,74.561,1.08e-14,PREDICTED: Oryzias latipes cathepsin L1 (LOC101171789), mRNA,95.3
-gi|2211167287|emb|OW052098.1|,87.500,1.40e-13,Caradrina clavipalpis genome assembly, chromosome: 11,91.6
-gi|2002747180|emb|HG995382.1|,83.838,1.40e-13,Atethmia centrago genome assembly, chromosome: 16,91.6
-gi|2319414630|emb|OW964563.2|,85.227,5.04e-13,Tholera decimalis genome assembly, chromosome: 15,89.8
-gi|1317084269|ref|XM_023426852.1|,74.634,8.43e-11,PREDICTED: Seriola lalandi dorsalis oryzain beta chain-like (LOC111670216), mRNA,82.4
-gi|1614056712|emb|LR584414.1|,86.111,1.09e-09,Salmo trutta genome assembly, chromosome: 33,78.7
-gi|1593084942|emb|LR132012.2|,86.301,1.09e-09,Betta splendens genome assembly, chromosome: 22,78.7
-gi|551556903|ref|XM_005765477.1|,83.951,1.09e-09,Emiliania huxleyi CCMP1516 hypothetical protein mRNA,78.7
-gi|112143897|gb|DQ658268.1|,75.000,1.09e-09,Emiliania huxleyi clone Plate1_A09;77-2-3-B03 putative cysteine protease, complete cds,78.7
-gi|2362855246|emb|OX374658.1|,100.000,1.41e-08,Pleuronectes platessa genome assembly, chromosome: 11,75.0
-gi|1820209055|emb|LR778277.1|,84.722,5.08e-08,Coregonus sp. 'balchen' genome assembly, chromosome: 25,73.1
-gi|2063799300|emb|OU342881.1|,83.784,6.57e-07,Cydia splendana genome assembly, chromosome: 10,69.4
-gi|1894908462|emb|LR877153.1|,83.784,6.57e-07,Angomonas deanei strain Crithidia deanei Carvalho (ATCC PRA-265) genome assembly, chromosome: 09,69.4
-gi|1711374780|emb|LR537136.1|,97.436,2.36e-06,Sparus aurata genome assembly, chromosome: 16,67.6
-gi|1539176591|emb|LR132056.1|,97.436,2.36e-06,Anabas testudineus genome assembly, chromosome: 22,67.6
-gi|1559969733|gb|CP032593.1|,97.436,2.36e-06,Lateolabrax maculatus linkage group 19 genomic sequence,67.6
-gi|1558335865|gb|CP027274.1|,97.436,2.36e-06,Lateolabrax maculatus chromosome Lm13,67.6
-gi|1916648704|emb|LR884475.1|,97.436,2.36e-06,Acanthopagrus latus isolate v.2019 genome assembly, chromosome: 16,67.6
-gi|1220479426|gb|CP020642.1|,95.000,3.05e-05,Oryzias latipes strain HSOK chromosome 22,63.9
-gi|1220469786|gb|CP020800.1|,95.000,3.05e-05,Oryzias latipes strain HNI chromosome 22,63.9
-gi|1220465089|gb|CP020686.1|,95.000,3.05e-05,Oryzias latipes strain Hd-rR chromosome 22 sequence,63.9
-gi|1056744761|tpe|HF933228.1|,95.000,3.05e-05,TPA_asm: Oryzias latipes strain Hd-rR, complete genome assembly, chromosome 22,63.9
-gi|2118957249|ref|XM_044082924.1|,81.944,1.10e-04,PREDICTED: Protopterus annectens procathepsin L-like (LOC122811220), transcript variant X2, mRNA,62.1
-gi|2118957247|ref|XM_044082915.1|,81.944,1.10e-04,PREDICTED: Protopterus annectens procathepsin L-like (LOC122811220), transcript variant X1, mRNA,62.1
-gi|676397080|ref|XM_009043570.1|,84.746,3.95e-04,Aureococcus anophagefferens hypothetical protein partial mRNA,60.2
+gi|1565768577|gb|MK033612.1|,100.000,0.0,Penaeus vannamei cellular apoptosis susceptibility protein (CAS) mRNA, complete cds,6462
+gi|1536062447|ref|XM_027364234.1|,99.971,0.0,PREDICTED: Penaeus vannamei exportin-2-like (LOC113812360), mRNA,6381
+gi|2220166067|ref|XM_047640339.1|,94.344,0.0,PREDICTED: Penaeus chinensis exportin-2-like (LOC125043945), transcript variant X1, mRNA,5332
+gi|1935928321|ref|XM_037934358.1|,94.043,0.0,PREDICTED: Penaeus monodon exportin-2-like (LOC119585683), mRNA,5293
+gi|2220166069|ref|XM_047640340.1|,94.286,0.0,PREDICTED: Penaeus chinensis exportin-2-like (LOC125043945), transcript variant X2, mRNA,5265
+gi|212656628|gb|EU815058.1|,93.980,0.0,Fenneropenaeus chinensis cellular apoptosis susceptibility protein mRNA, complete cds,5221
+gi|2080963801|ref|XM_043019621.1|,90.896,0.0,PREDICTED: Penaeus japonicus exportin-2-like (LOC122255498), transcript variant X1, mRNA,4676
+gi|2080963805|ref|XM_043019623.1|,90.804,0.0,PREDICTED: Penaeus japonicus exportin-2-like (LOC122255498), transcript variant X3, mRNA,4612
+gi|2080963803|ref|XM_043019622.1|,90.786,0.0,PREDICTED: Penaeus japonicus exportin-2-like (LOC122255498), transcript variant X2, mRNA,4612
+gi|1935928875|ref|XM_037934655.1|,95.098,0.0,PREDICTED: Penaeus monodon exportin-2-like (LOC119585939), mRNA,3144
+gi|1229082346|gb|MF114251.1|,76.177,0.0,Synalpheus brooksi microsatellite SEB-927-c1577927_g2_i1 sequence,725

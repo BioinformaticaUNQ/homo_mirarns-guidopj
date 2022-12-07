@@ -8,7 +8,7 @@ from Bio.Blast.Applications import NcbiblastnCommandline
 Entrez.email="guidopujadas@gmail.com"
 
 #MK033612.1
-#python3 .\tp.py -gid MK033612.1
+#python3 tp_blast.py -gid MK033612.1 -tg vannamei
 #python3 tp_blast.py --fasta-file='../seq_test.fasta' --target='chinensis'
 
 parser = argparse.ArgumentParser()
@@ -34,13 +34,15 @@ def get_sequence_by_gene_id(record, gene_id):
 		print(f"The new directory {path} is created!")
 	file_name = f".cache/{gene_id}.fasta"
 	SeqIO.write(record, file_name, "fasta")
+	return file_name
 
 def are_args_passed_valid(args):
-	if args.target == None:
+	if args.get("target", None) == None:
 		print("You need to provide a system target")
 		print("EXIT")
 		exit()
-	if args.fasta_file == None and args.gene_id == None:
+	print(args['target'])
+	if args.get("fasta_file", None) == None and args.get("gene_id", None) == None:
 		print("You need to provide either a fasta file or a gene id")
 		print("EXIT")
 		exit()
@@ -57,7 +59,7 @@ def run_blast():
 			print(f"The new directory {path} is created!")
 			file_name = f".cache/{args.gene_id}.fasta"
 		SeqIO.write(record, file_name, "fasta")'''
-		get_sequence_by_gene_id(record, args.gene_id)
+		file_name = get_sequence_by_gene_id(record, args.gene_id)
 		db='nt'
 	else:
 		file_name = args.fasta_file
@@ -82,5 +84,6 @@ def run_blast():
 			if args.target in entry_value_description:
 				print(entry_value_description)
 
-are_args_passed_valid(args)
-run_blast()
+if __name__ == "__main__":
+	are_args_passed_valid(args)
+	run_blast()
