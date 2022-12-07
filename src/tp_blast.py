@@ -8,7 +8,7 @@ from Bio.Blast.Applications import NcbiblastnCommandline
 Entrez.email="guidopujadas@gmail.com"
 
 #MK033612.1
-#python3 tp_blast.py -gid MK033612.1 -tg vannamei
+#python3 tp_blast.py -gid MK033612.1 -tg vannameipython3 tp_blast.py -gid MK033612.1 -tg vannamei
 #python3 tp_blast.py --fasta-file='../seq_test_adn.fasta' --target='chinensis'
 #python3 tp_blast.py --fasta-file='../seq_test_arn.fasta' --target='chinensis'
 
@@ -68,7 +68,7 @@ def run_blast():
 			db_dir='../db/mature.fasta'
 			remote=False
 			run_make_db = NcbimakeblastdbCommandline(dbtype="nucl",input_file=db_dir, title="miRNA", out="../db/miRNA")
-			db="miRNA"
+			db="../db/miRNA"
 			make_db_cmd = "../ncbi-blast/bin/" + str(run_make_db)
 			os.system(make_db_cmd)
 
