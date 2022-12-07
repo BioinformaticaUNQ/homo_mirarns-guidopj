@@ -6,7 +6,7 @@
   "description": "miRNA",
   "number-of-letters": 1067911,
   "number-of-sequences": 48885,
-  "last-updated": "2022-12-07T12:26:00",
+  "last-updated": "2022-12-07T16:28:00",
   "number-of-volumes": 1,
   "bytes-total": 7498233,
   "bytes-to-cache": 882938,

@@ -38,11 +38,11 @@ def get_sequence_by_gene_id(record, gene_id):
 	return file_name
 
 def are_args_passed_valid(args):
-	if args["target"] == None:
+	if args.target == None:
 		print("You need to provide a system target")
 		print("EXIT")
 		exit()
-	if args["fasta_file"] == None and args["gene_id"] == None:
+	if args.fasta_file == None and args.gene_id == None:
 		print("You need to provide either a fasta file or a gene id")
 		print("EXIT")
 		exit()
@@ -67,7 +67,7 @@ def run_blast():
 			print('ARN, using miRNAs database')
 			db_dir='../db/mature.fasta'
 			remote=False
-			run_make_db = NcbimakeblastdbCommandline(dbtype="nucl",input_file=db_dir, title="miRNA", out="miRNA")
+			run_make_db = NcbimakeblastdbCommandline(dbtype="nucl",input_file=db_dir, title="miRNA", out="../db/miRNA")
 			db="miRNA"
 			make_db_cmd = "../ncbi-blast/bin/" + str(run_make_db)
 			os.system(make_db_cmd)
