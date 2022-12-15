@@ -44,6 +44,7 @@ if not is_miRNAs_exists:
 	url = 'http://rhesus.amu.edu.pl/mirnest/copy/downloads/mirnest_targets.gz'
 	filename = wget.download(url)
 	os.system('mv mirnest_targets.gz ../db')
+	os.system('gunzip --keep ../db/mirnest_targets.gz')
 	
 
 def isADN(seq):
@@ -78,8 +79,23 @@ def getChosenDB(db):
 	os.system('tar -xvf *{}*.tar.gz'.format(db))
 	print(db + '.ndb')
 	return db + '.ndb'
+	
+def check_gene_id_in_mirnas(gene_ids):
+	found = False
+	with open('../db/mirnest_targets') as result:
+		for gid in gene_ids:
+			for line in result:
+				miRNA_gene_id=line.split("|")[1]
+				if miRNA_gene_id == gid:
+					print(line)
+					found = True
+					break
+	if not found:
+		print('no matches found')
 
 def run_blast():
+	should_check_mirnas = False
+	results = []
 	if args.gene_id != None:
 		handle = Entrez.efetch(db="nucleotide", id=args.gene_id, rettype="gb", retmode="text")
 		record = SeqIO.read(handle, "genbank")
@@ -99,6 +115,7 @@ def run_blast():
 				db = 'nr'
 				remote=True
 				print('ADN, using nr database')
+			should_check_mirnas = True
 		else:
 			print('ARN, using miRNAs database')
 			db_dir='../db/mature.fasta'
@@ -116,12 +133,24 @@ def run_blast():
 	os.system(blast_cmd)
 
 	with open(output_file) as result:
+		found = False
 		for line in result:
 			entry_value_gene_id=line.split(",")[0]
 			entry_value_description=line.split(",")[3]
 			if args.target in entry_value_description:
+				if should_check_mirnas:
+					print("found to compare against miRNAs DB")
+					results.append(entry_value_gene_id)
+					found = True
 				print("gene id: ", entry_value_gene_id)
 				print("description: ", entry_value_description)
+	
+	if should_check_mirnas:
+		if not found:
+			print('nothing found to compare to')
+		else:
+			print('looking for miRNAs results')
+			check_gene_id_in_mirnas(results)
 
 if __name__ == "__main__":
 	are_args_passed_valid(args)

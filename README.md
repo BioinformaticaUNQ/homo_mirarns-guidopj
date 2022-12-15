@@ -3,13 +3,7 @@
 
 # Anotación por homología de mirARNs
 
-* [1 Objetivo](#1-objetivo)
-* [2 Contexto](#2-contexto)
-* [3 Requerimientos detallados](#3-requerimientos-detallados)
-* [4 Tecnologías](#4-tecnologías)
-* [5 Forma de entrega](#5-forma-de-entrega)
-
-## [1 Objetivo](#1-objetivo)
+## [1 Pasos para correr Script](#1-objetivo)
 El objetivo de este trabajo práctico es integrar los conceptos biológicos y bioinformáticos desarrollados durante la materia, junto con los conocimientos, prácticas y habilidades propias de la informática y la programación adquiridas en otras materias, a través de la construcción de un programa simple pero innovador que sirva de asistencia al proceso del análisis bioinformático y/o herramienta educativa para la enseñanza de la Biología. 
 
 ## [2 Contexto](#2-contexto)
