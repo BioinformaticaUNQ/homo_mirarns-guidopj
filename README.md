@@ -3,7 +3,15 @@
 
 # Anotación por homología de mirARNs
 
-## [1 Pasos para correr Script](#1-objetivo)
+* [1 Objetivo](#1-objetivo)
+* [2 Contexto](#2-contexto)
+* [3 Requerimientos detallados](#3-requerimientos-detallados)
+* [4 Tecnologías](#4-tecnologías)
+* [5 Forma de entrega](#5-forma-de-entrega)
+* [6 Steps to run script](#6-steps)
+* [7 Pasos para correr el script](#7-use-cases)
+
+## [1 Objetivo](#1-objetivo)
 El objetivo de este trabajo práctico es integrar los conceptos biológicos y bioinformáticos desarrollados durante la materia, junto con los conocimientos, prácticas y habilidades propias de la informática y la programación adquiridas en otras materias, a través de la construcción de un programa simple pero innovador que sirva de asistencia al proceso del análisis bioinformático y/o herramienta educativa para la enseñanza de la Biología. 
 
 ## [2 Contexto](#2-contexto)
@@ -38,3 +46,10 @@ No son todas las herramientas deben ser usadas si o si y presentan característi
 
 ## [5 Forma de entrega](#5-forma-de-entrega)
 El trabajo práctico se realizará en equipos de hasta 4 integrantes, y deberá ser entregado de forma virtual el día 30  de Noviembre. El mismo deberá además estar en un repositorio público en Github, creado en la organización de la materia. Tod@s l@s integrantes del equipo deben tener commits con aportes significativos. Los trabajos serán presentados por los miembros del equipo en una exposición oral (con DEMO), la última clase de la cursada (2 de Diciembre). Los trabajos contarán con una calificación grupal por código y conceptual evaluando los contenidos de la materia. Esta nota contempla no sólo los aspectos de diseño del software y de apropiación de conceptos biológicos o de herramientas bioinformáticas, sino que también otros aspectos que se consideran importantes en la evaluación por proceso, como ser: entrega de versiones y consultas previas, indagación/investigación por fuera de lo propuesto por la docente, entregas en los tiempos pautados, trabajo colaborativo/en equipo. Cada estudiante tendrá además una calificación individual correspondiente a los aportes y su proceso personal.
+
+## [6 Steps to run script](#6-steps)
+* ```git clone git@github.com:BioinformaticaUNQ/homo_mirarns-guidopj.git```
+* ```cd homo_mirarns-guidopj```
+* ```pip install -r /path/to/requirements.txt```
+
+## [7 Use cases](#7-use-cases)
